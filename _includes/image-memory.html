@@ -1,0 +1,23 @@
+<main class="page-content" aria-label="Content">
+    <section class="chapters cf">
+        <div class="wrapper flex-row">
+            {% for post in site.posts %}
+            {% if post.description == "tourism" %}
+            <div class="chapter">
+                <a href="{{post.url | prepend: site.baseurl}}">
+                    {% if post.img %}
+                    <img style="width: 300px;height: 200px;" src={{ "/images/posts/tourism/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}" >
+                    {% endif %}
+                </a>
+                <a href="{{post.url | prepend: site.baseurl}}">
+                    <div class="chapter_inner">
+                        <p class="chapter_number">{{post.date | date: '%Y, %b %d'}}</p>
+                        <span style="color: #FFFFFF;margin-left: 20px;font-size: 20px;">{{post.title}}</span>
+                    </div>
+                </a>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </section>
+</main>

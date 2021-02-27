@@ -1,0 +1,68 @@
+# Basic
+title: 沐澄
+subtitle: 沐浴阳光.茁壮成长
+description: 欢迎来到我的个人站~
+# 头像里面的标题
+avatarTitle: Only
+# 头像里面的描述
+avatarDesc: 爱生活、爱青青
+url: "https://tianxincc.github.io"
+
+# 博客是否自动生成目录，false为不生成
+enableToc: true
+
+# Comment
+comment:
+    # livere: MTAyMC81MDk5NC8yNzQ3Ng  # https://www.livere.com
+    disqus: leopard
+    # uyan: 2143225  # 有言id,登录有言官网申请
+
+# Social
+social:
+    weibo: 5366874726 
+    github: tianxincc
+    # zhihu: panpanleopard
+    # juejin: xxx
+    jianshu: 2ada30d8d0f7
+    # twitter: 
+    mail: 1065986093@qq.com
+
+
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+baidu:
+    id: 71f86972eca8a8d490e6914ae3ec9586
+
+
+
+
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+
+
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: 主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 归档, description: tags, url: '/tags'}
+    - {title: 相册, description: tourism, url: '/tourism'}
+    - {title: 关于, description: about, url: '/about'}
+    #- {title: 随笔, description: shaft, url: '/shaft'}
+    - {title: 留言, description: comments, url: '/comments'}
+
+# Pagination
+plugins: [jekyll-paginate]
+paginate: 10
+paginate_path: "/page:num/"
+
+#theme: jekyll-theme-hacker
