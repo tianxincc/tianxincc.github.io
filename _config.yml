@@ -1,11 +1,11 @@
 # Basic
-title: 沐澄
-subtitle: 沐浴阳光.茁壮成长
-description: 欢迎来到我的个人站~
+title: 沐 橙
+subtitle: 沐浴阳光.茁壮橙长
+description: 2020-09-26
 # 头像里面的标题
 avatarTitle: Only
 # 头像里面的描述
-avatarDesc: 爱生活、爱青青
+avatarDesc: 爱青青、爱橙橙
 url: "https://tianxincc.github.io"
 
 # 博客是否自动生成目录，false为不生成
@@ -32,8 +32,6 @@ social:
 # 使用博客模板请去掉或者更换 id 
 baidu:
     id: 71f86972eca8a8d490e6914ae3ec9586
-
-
 
 
 # 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
