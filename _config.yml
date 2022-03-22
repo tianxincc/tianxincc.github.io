@@ -16,11 +16,10 @@ enableToc: false
 
 # 菜单栏
 nav:
-  - {title: 首页, description: about, url: '/',class: 'fa fa-home'}
-  - {title: 标签, description: tag, url: '/',class: 'fa fa-tags'}
-  - {title: 图册, description: tags, url: '/images',class: 'fa fa-picture-o'}
-  #  - {title: 宝宝相薄, description: tags, url: '/star',class: 'fa fa-star'}
-  - {title: 关于, description: comments, url: '/about',class: 'fa fa-lemon-o'}
+  - {title: 随笔, description: about, url: '/index',class: 'glyphicon glyphicon-pencil'}
+  - {title: 标签, description: tag, url: '/tags',class: 'glyphicon glyphicon-tags'}
+  - {title: 视频, description: tags, url: '/images',class: 'glyphicon glyphicon-cd'}
+  - {title: 图册, description: comments, url: '/about',class: 'glyphicon glyphicon-picture'}
 
 # Format
 highlighter: rouge
