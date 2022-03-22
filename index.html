@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+
+<!--首页置顶页面栏-->
+<section class="banner">
+    <div class="headintro">
+        <p class="title">{{site.avatarDesc}}</p>
+        <p class="subtitle">{{site.greeting}}</p>
+    </div>
+</section>
+
+{% for post in paginator.posts %}
+<!--{% if  post.tags[0]=="笔记" %}-->
+<section class="posts">
+    <article class="post">
+        <div class="post-meta">
+            <span class="post-time">{{ post.date |  date: "%Y-%m-%d" }}</span>
+        </div>
+        <div class="post-title">
+            <a class="post-title-link" href="{{ post.url }}">
+                {{ post.title }}
+            </a>
+            <div class="post-tags">
+            </div>
+        </div>
+        <div class="post-content">
+            <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+        </div>
+    </article>
+</section>
+<!-- {% endif %} -->
+{% endfor %}
+
