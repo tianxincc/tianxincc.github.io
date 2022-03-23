@@ -16,10 +16,10 @@ enableToc: false
 
 # 菜单栏
 nav:
-  - {title: 随笔, description: about, url: '/index',class: 'glyphicon glyphicon-pencil'}
-  - {title: 标签, description: tag, url: '/tags',class: 'glyphicon glyphicon-tags'}
-  - {title: 视频, description: tags, url: '/images',class: 'glyphicon glyphicon-cd'}
-  - {title: 图册, description: comments, url: '/about',class: 'glyphicon glyphicon-picture'}
+  - {title: 随笔, url: '/index',class: 'glyphicon glyphicon-pencil'}
+  - {title: 标签, url: '/tags',class: 'glyphicon glyphicon-tags'}
+  - {title: 视频, url: '/video',class: 'glyphicon glyphicon-cd'}
+  - {title: 图册, url: '/images',class: 'glyphicon glyphicon-picture'}
 
 # Format
 highlighter: rouge
@@ -31,5 +31,5 @@ plugins:
 # 分页
 # 每页有几个项目
 gems: [jekyll-paginate]
-paginate: 10
+paginate: 5
 paginate_path: "page:num"
