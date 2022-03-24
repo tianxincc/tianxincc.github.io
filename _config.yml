@@ -1,15 +1,18 @@
 
 # Basic
-basictitle: 首页
-subtitle: 简介1
+basictitle: 沐澄
+subtitle: 沐澄
 ## 底部状态栏描述
-descriptionDate: 2021-10-19
-description: 备案号
+descriptionimg:
+descriptionDate: ©2022 漂泊宇宙的
+description: ICP备案号:鄂ICP备2022003408号
+
+#以下暂未启用
 # 头像里面的标题
-avatarTitle: 头像
+##avatarTitle: 头像
 # 首页里面的描述
-avatarDesc: 简介2
-greeting: 愿你所求皆如愿 所行化坦途 多喜乐 长安宁。
+##avatarDesc: 简介2
+##greeting: 愿你所求皆如愿 所行化坦途 多喜乐 长安宁。
 
 # 博客是否自动生成目录，false为不生成
 enableToc: false
@@ -21,7 +24,8 @@ nav:
   - {title: 视频, url: '/video',class: 'glyphicon glyphicon-cd'}
   - {title: 图册, url: '/images',class: 'glyphicon glyphicon-picture'}
 
-permalink: /:categories/:year-:month-:day/:title
+#permalink: /:categories/:year-:month-:day/:title
+permalink: /:year/:month/:title
 
 # Format
 highlighter: rouge
@@ -33,5 +37,5 @@ plugins:
 # 分页
 # 每页有几个项目
 gems: [jekyll-paginate]
-paginate: 5
+paginate: 7
 paginate_path: "page:num"
