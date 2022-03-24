@@ -7,45 +7,36 @@ layout: default
 <div class="tags">
     <h2 class="tags-title">标签</h2>
 
-    <!--    {% for tag in site.tags %}-->
-    <!--    {% assign t = tag | first %}-->
-    <!--    {% assign posts = tag | last %}-->
+        {% for tag in site.tags %}
+        {% assign t = tag | first %}
+        {% assign posts = tag | last %}
 
-    <!--    <h4><a name="{{t | downcase | replace:" ","-" }}"></a><a class="internal" href="/tagged/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }} ({{ tag | last | size }})</a></h4>-->
+        <h4><a name="{{t | downcase | replace:" ","-" }}"></a><a class="internal" href="/tagged/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }} ({{ tag | last | size }})</a></h4>
 
-    <!--    <ul>-->
-    <!--        {% for post in posts %}-->
-    <!--        {% if post.tags contains t %}-->
-    <!--        <li>-->
-    <!--            <a href="{{ post.url }}">{{ post.title }}</a>-->
-    <!--            <span class="date">{{ post.date | date: "%B %-d, %Y" }}</span>-->
-    <!--        </li>-->
-    <!--        {% endif %}-->
-    <!--        {% endfor %}-->
-    <!--    </ul>-->
-    <!--    <hr>-->
-    <!--    {% endfor %}-->
+        <ul>
+            {% for post in posts %}
+            {% if post.tags contains t %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+                <span class="date">{{ post.date | date: "%B %-d, %Y" }}</span>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+        <hr>
+        {% endfor %}
 
     <div class="tags-wrapper">
         <ul class="tag-list">
             {% for tag in site.tags %}
-            {% assign pages_list = tag[1] %}
             <li class="tag-list-item">
-                <a class="tag-list-link" href="tagList.html" one-link-mark="yes"> {{ tag[0] }}</a>
+                <a class="tag-list-link" href="{{ post.url }}" one-link-mark="yes"> {{ tag[0] }}</a>
                 <span class="tag-list-count">{{ tag | last | size }}</span>
             </li>
             {% endfor %}
         </ul>
     </div>
-</div>
 
 
-<div class="archive">
-    <h2 class="year">2013 </h2>
-    {% for tag in pages_list %}
-    <div class="archive_item">
-        <span class="date">{{tag[1]}}</span>
-        <a class="title" href="/2013/12/24/tags/" one-link-mark="yes">Tags</a>
-    </div>
-    {% endfor %}
 </div>
+

@@ -21,6 +21,8 @@ nav:
   - {title: 视频, url: '/video',class: 'glyphicon glyphicon-cd'}
   - {title: 图册, url: '/images',class: 'glyphicon glyphicon-picture'}
 
+permalink: /:categories/:year-:month-:day/:title
+
 # Format
 highlighter: rouge
 cover_color: clear
