@@ -4,7 +4,7 @@ basictitle: 沐澄
 subtitle: 沐澄
 ## 底部状态栏描述
 descriptionimg:
-descriptionDate: ©2022 漂泊宇宙的
+descriptionDate: 与她相遇历经的
 description: ICP备案号:鄂ICP备2022003408号
 
 #以下暂未启用
@@ -23,6 +23,13 @@ nav:
   - {title: 标签, url: '/tags',class: 'glyphicon glyphicon-tags'}
   - {title: 视频, url: '/video',class: 'glyphicon glyphicon-cd'}
   - {title: 图册, url: '/images',class: 'glyphicon glyphicon-picture'}
+  - {title: 留言板, url: '/message',class: 'glyphicon glyphicon-envelope'}
+
+
+# 畅言
+
+APPID: cyvYqJ14x
+APPSECRET: 3f3eb5e71f2003b89c8e0d66ed96e6f7
 
 #permalink: /:categories/:year-:month-:day/:title
 permalink: /:year/:month/:title
