@@ -4,7 +4,7 @@ basictitle: 沐澄
 subtitle: 沐澄
 ## 底部状态栏描述
 descriptionimg:
-descriptionDate: 与她相遇历经的
+descriptionDate:
 description: ICP备案号:鄂ICP备2022003408号
 
 #以下暂未启用
@@ -23,6 +23,8 @@ nav:
   - {title: 标签, url: '/tags',class: 'glyphicon glyphicon-tags'}
   - {title: 视频, url: '/video',class: 'glyphicon glyphicon-cd'}
   - {title: 图册, url: '/images',class: 'glyphicon glyphicon-picture'}
+#- {title: 友链, url: '/',class: 'glyphicon glyphicon-heart-empty'}
+#- {title: 关于, url: '/',class: 'glyphicon glyphicon-user'}
   - {title: 留言板, url: '/message',class: 'glyphicon glyphicon-envelope'}
 
 
