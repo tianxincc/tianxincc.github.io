@@ -1,8 +1,11 @@
 <header class="header">
     <div class="header-wrapper">
         <div class="blog-title">
-<!--            <img class="logo" src="{{ BASE_PATH }}/lib/images/logo.png" alt="logo">-->
             <a href="/" class="title">{{site.subtitle}}</a>
+<!--            <div>-->
+<!--                <a><img id="searchImg" src="https://cdn.jsdelivr.net/gh/tianxincc/PicGo@main/Anime/202203291445271.png" class="logo" style="margin-left: 15px;" onclick="SearchShow()"  ></a>-->
+<!--                <input type="text" id="cb-search-content"  class="form-control cb-search-content" placeholder="search..."  style="margin-left: 20px;" >-->
+<!--            </div>-->
         </div>
         <nav class="navbar navbar-menu">
             <div class="container-fluid">
@@ -23,9 +26,13 @@
                     </a>
                 </li>
                 {% endfor %}
+                <li class="menu-item" style="position: fixed;right: 10px;">
+                    <a href="javascript:void(0)"  class="menu-item-link"><i class="glyphicon glyphicon-search"></i><span>搜索</span></a>
+                </li>
             </ul>
         </nav>
     </div>
+
 </header>
 <div class="collapse nav-collapse" style="position:fixed;top:45px;" id="bs-example-navbar-collapse-1">
     <ul class="menu menu-mobile" style="list-style:none">
@@ -36,5 +43,9 @@
             </a>
         </li>
         {% endfor %}
+        <li class="menu-item">
+            <a href="javascript:void(0)"  class="menu-item-link"><i class="glyphicon glyphicon-search"></i><span>搜索</span></a>
+        </li>
     </ul>
 </div>
+

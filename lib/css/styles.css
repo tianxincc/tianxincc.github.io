@@ -171,7 +171,7 @@ body {
   width: 100%;
   flex-direction: row;
   justify-content: center;
-  /**background-color: #000;**/
+  background-color: #ace0f9;
   transition: top 0.3s ease;
 }
 .header .color-bar.out {
@@ -276,7 +276,7 @@ body {
 }
 .nav-collapse {
   left: 0;
-  /**background-color: #000;**/
+  background-color: #ace0f9;
   width: 100%;
   z-index: 1000;
   transition: top 0.3s ease;
