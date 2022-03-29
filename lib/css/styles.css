@@ -822,3 +822,16 @@ pre .javascript .function {
     margin: 10px;
   }
 }
+
+.shaded{
+  position: fixed;
+  top: 0px ;
+  bottom: 0px;
+  left: 0px;
+  right:  0px;
+  opacity: 0.95;
+  background-color: #fff0f5;
+  z-index: 9999;
+  display: none;
+}
+

@@ -2,10 +2,12 @@
     <div class="header-wrapper">
         <div class="blog-title">
             <a href="/" class="title">{{site.subtitle}}</a>
-<!--            <div>-->
-<!--                <a><img id="searchImg" src="https://cdn.jsdelivr.net/gh/tianxincc/PicGo@main/Anime/202203291445271.png" class="logo" style="margin-left: 15px;" onclick="SearchShow()"  ></a>-->
-<!--                <input type="text" id="cb-search-content"  class="form-control cb-search-content" placeholder="search..."  style="margin-left: 20px;" >-->
-<!--            </div>-->
+            <div class="cb-search-tool shaded" >
+                <input type="text" class="form-control cb-search-content container " id="cb-search-content" width="70%" style="position: fixed; top: 120px;margin-left: 15%" placeholder="搜索...." >
+                <div style="position: fixed; top: 16px; right: 16px;">
+                    <a href="javascript:void(0)" id="cb-close-btn" class="menu-item-link"><i class="glyphicon glyphicon-remove"></i></a>
+                </div>
+            </div>
         </div>
         <nav class="navbar navbar-menu">
             <div class="container-fluid">
@@ -27,7 +29,7 @@
                 </li>
                 {% endfor %}
                 <li class="menu-item" style="position: fixed;right: 10px;">
-                    <a href="javascript:void(0)"  class="menu-item-link"><i class="glyphicon glyphicon-search"></i><span>搜索</span></a>
+                    <a href="javascript:void(0)" id="cb-search-btn" class="menu-item-link"><i class="glyphicon glyphicon-search"></i><span class="cb-search-btn">搜索</span></a>
                 </li>
             </ul>
         </nav>
@@ -44,7 +46,7 @@
         </li>
         {% endfor %}
         <li class="menu-item">
-            <a href="javascript:void(0)"  class="menu-item-link"><i class="glyphicon glyphicon-search"></i><span>搜索</span></a>
+            <a href="javascript:void(0)"  class="menu-item-link"><i class="glyphicon glyphicon-search"></i><span class="cb-search-btn">搜索</span></a>
         </li>
     </ul>
 </div>
