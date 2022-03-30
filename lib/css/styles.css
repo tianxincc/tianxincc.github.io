@@ -865,4 +865,5 @@ pre .javascript .function {
 canvas{
   position: fixed;
   top: 0px;
+  pointer-events: none;
 }
