@@ -377,7 +377,7 @@ body {
 .posts .post-title .post-title-link {
   display: inline-block;
   font-weight: bold;
-  color: #ee1289;
+  color: #A8D8B9;
   text-shadow: #efefef 1px 1px, #fff0f5 3px 3px;
   text-decoration: none;
   font-size: 26px;
@@ -867,3 +867,18 @@ canvas{
   top: 0px;
   pointer-events: none;
 }
+
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  position: fixed;
+  right: 50px;
+  bottom: 100px;
+  visibility: visible;
+  opacity: 1;
+  font-size: 20px;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+
