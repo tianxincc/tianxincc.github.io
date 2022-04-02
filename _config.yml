@@ -29,6 +29,10 @@ nav:
   - {title: 留言板, url: '/message',class: 'glyphicon glyphicon-envelope'}
 
 
+#cdnurl
+
+CDNUrl: http://youpaiyun.lovemucheng.xyz/images/emo/
+
 # 畅言
 
 APPID: cyvYqJ14x
