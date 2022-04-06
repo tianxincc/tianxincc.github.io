@@ -38,7 +38,7 @@ body {
   width: 90%;
   margin: 0 auto;
   max-width: 1000px;
-  text-align: center;
+  text-align: left;
 }
 .main .content .archive {
   min-height: 400px;
@@ -876,11 +876,23 @@ canvas{
   visibility: visible;
   opacity: 1;
   font-size: 20px;
+  display: block;
 }
 .cd-top.cd-fade-out {
   /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
-
   opacity: .5;
+}
+
+.friend {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
 }
 
 

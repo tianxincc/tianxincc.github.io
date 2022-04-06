@@ -2,20 +2,42 @@
 layout: default
 ---
 
-<!--PC版-->
-<div id="SOHUCS" ></div>
-<script charset="utf-8" type="text/javascript" src="https://cy-cdn.kuaizhan.com/upload/changyan.js" ></script>
-<script type="text/javascript">
-    window.changyan.api.config({
-        appid: '{{site.APPID}}',
-        conf: '{{site.SECRET}}'
-    });
-</script>
+<div class="row">
+    {% for item in site.friendList %}
+        <div class="col-xs-12 col-md-3">
+            <div class="bs-example" data-example-id="default-media">
+                <div class="media" style="border: 1px solid #000;border-radius: 16px;">
+                    <div class="media-left">
+                        <a href="{{item.url}}" target="_blank">
+                            <img class="media-object"  src="{{item.imgUrl}}" data-holder-rendered="true"  style="width: 64px; height: 64px;border-radius:45px;">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">{{item.title}}</h4>
+                        {{item.intro}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
 
-<!-- 代码1：放在页面需要展示的位置  -->
-<!-- 如果您配置过sourceid，建议在div标签中配置sourceid、cid(分类id)，没有请忽略  -->
-<div id="cyReward" role="cylabs" data-use="reward"></div>
-<!-- 代码2：用来读取评论框配置，此代码需放置在代码1之后。 -->
-<!-- 如果当前页面有评论框，代码2请勿放置在评论框代码之前。 -->
-<!-- 如果页面同时使用多个实验室项目，以下代码只需要引入一次，只配置上面的div标签即可 -->
-<script type="text/javascript" charset="utf-8" src="https://cy-cdn.kuaizhan.com/js/??lib/jquery.js,changyan.labs.https.js?appid=cyvYqJ14x"></script>
+<!--&lt;!&ndash;PC版&ndash;&gt;-->
+<!--<div id="SOHUCS" ></div>-->
+<!--<script charset="utf-8" type="text/javascript" src="https://cy-cdn.kuaizhan.com/upload/changyan.js" ></script>-->
+<!--<script type="text/javascript">-->
+<!--    window.changyan.api.config({-->
+<!--        appid: '{{site.APPID}}',-->
+<!--        conf: '{{site.SECRET}}'-->
+<!--    });-->
+<!--</script>-->
+
+<!--&lt;!&ndash; 代码1：放在页面需要展示的位置  &ndash;&gt;-->
+<!--&lt;!&ndash; 如果您配置过sourceid，建议在div标签中配置sourceid、cid(分类id)，没有请忽略  &ndash;&gt;-->
+<!--<div id="cyReward" role="cylabs" data-use="reward"></div>-->
+<!--&lt;!&ndash; 代码2：用来读取评论框配置，此代码需放置在代码1之后。 &ndash;&gt;-->
+<!--&lt;!&ndash; 如果当前页面有评论框，代码2请勿放置在评论框代码之前。 &ndash;&gt;-->
+<!--&lt;!&ndash; 如果页面同时使用多个实验室项目，以下代码只需要引入一次，只配置上面的div标签即可 &ndash;&gt;-->
+<!--<script type="text/javascript" charset="utf-8" src="https://cy-cdn.kuaizhan.com/js/??lib/jquery.js,changyan.labs.https.js?appid=cyvYqJ14x"></script>-->
+
+

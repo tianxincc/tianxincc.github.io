@@ -24,10 +24,14 @@ nav:
   - {title: 标签, url: '/tags',class: 'glyphicon glyphicon-tags'}
   - {title: 视频, url: '/video',class: 'glyphicon glyphicon-cd'}
   - {title: 图册, url: '/images',class: 'glyphicon glyphicon-picture'}
-#- {title: 友链, url: '/',class: 'glyphicon glyphicon-heart-empty'}
-#- {title: 关于, url: '/',class: 'glyphicon glyphicon-user'}
-  - {title: 留言板, url: '/message',class: 'glyphicon glyphicon-envelope'}
+  - {title: 友链, url: '/message',class: 'glyphicon glyphicon-heart-empty'}
+  - {title: 关于, url: '/about',class: 'glyphicon glyphicon-user'}
+#- {title: 留言板, url: '/message',class: 'glyphicon glyphicon-envelope'}
 
+
+friendList:
+  - {title: 皮皮凛の小窝, intro: 哇~ 会拉小提琴的女孩子，贼帅~。, imgUrl: 'https://cdn.jsdelivr.net/gh/AyagawaSeirin/Blog@gh-pages/logo.webp',url: 'https://owomoe.net'}
+  - {title: 云游君, intro: 哇~ 有教师证的男孩子，贼酷啊~。, imgUrl: '	https://www.yunyoujun.cn/images/avatar.jpg',url: 'https://www.yunyoujun.cn'}
 
 #cdnurl
 
@@ -35,10 +39,11 @@ CDNUrl: http://youpaiyun.lovemucheng.xyz/images/emo/
 
 # 畅言
 
-APPID: cyvYqJ14x
-APPSECRET: 3f3eb5e71f2003b89c8e0d66ed96e6f7
+APPID: eVAkskAETYgdDIOTy7zUKD1c-gzGzoHsz
+APPSECRET: 0egMFFiWgJBUL9u73CperLb7
 
-permalink: /:categories/:year-:month-:day/:title
+
+#permalink: /:categories/:year-:month-:day/:title
 #permalink: /:year/:month/:title
 
 # Format
