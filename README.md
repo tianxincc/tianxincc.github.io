@@ -1,5 +1,5 @@
 
-# 项目克隆
+# jekyll 踩坑
 
 ## 项目clone本地 无法启动
 
@@ -20,5 +20,3 @@
    1. 解决办法：在Gemfile文件中添加分页的引用
    2. gem 'jekyll-paginate', group: :jekyll_plugins
 
-# 标签使用
-1.{{ BASE_PATH }}
