@@ -30,9 +30,9 @@ nav:
 
 
 friendList:
-  - {title: 皮皮凛の小窝, intro: 哇~ 会拉小提琴的女孩子，贼帅~。, imgUrl: 'https://cdn.jsdelivr.net/gh/AyagawaSeirin/Assets/img/logo.jpg',url: 'https://owomoe.net'}
-  - {title: 月月月子喵, intro: 有趣的月子喵~。, imgUrl: 'https://haozi.moe/logo/base.ico',url: 'https://haozi.moe'}
-
+  - {title: 皮皮凛の小窝, intro: 永远相信美好的事情即将发生~。, imgUrl: 'https://cdn.jsdelivr.net/gh/AyagawaSeirin/Assets/img/logo.jpg',url: 'https://owomoe.net'}
+  - {title: 月月月子喵, intro: 月子喵~。, imgUrl: 'https://haozi.moe/logo/base.ico',url: 'https://haozi.moe'}
+  - {title: 汀彵の汐, intro: 好事多磨，浪漫不死。, imgUrl: 'https://q2.qlogo.cn/headimg_dl?dst_uin=2461306899&spec=100',url: 'https://www.izznan.cn'}
 
 friendtitle: 希望能能认识一些有趣的朋友~
 friendintro:
