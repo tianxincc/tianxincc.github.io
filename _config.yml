@@ -33,6 +33,8 @@ friendList:
   - {title: 皮皮凛の小窝, intro: 永远相信美好的事情即将发生~。, imgUrl: 'https://cdn.jsdelivr.net/gh/AyagawaSeirin/Assets/img/logo.jpg',url: 'https://owomoe.net'}
   - {title: 月月月子喵, intro: 月子喵~。, imgUrl: 'https://haozi.moe/logo/base.ico',url: 'https://haozi.moe'}
   - {title: 汀彵の汐, intro: 好事多磨，浪漫不死。, imgUrl: 'https://q2.qlogo.cn/headimg_dl?dst_uin=2461306899&spec=100',url: 'https://www.izznan.cn'}
+  - {title: 猫鱼的小窝, intro: 记录猫鱼生活的琐碎和分享喜欢的音乐。。, imgUrl: 'https://2cat.net/logos.jpg',url: 'https://2cat.net'}
+  - {title: 崽崽, intro: 一个可爱崽, imgUrl: 'https://xll.cc/wj/photo/tx.jpg',url: 'https://xll.cc'}
 
 friendtitle: 希望能能认识一些有趣的朋友~
 friendintro:
