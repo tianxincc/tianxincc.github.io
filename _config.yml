@@ -26,7 +26,7 @@ nav:
   - {title: 图册, url: '/images',class: 'glyphicon glyphicon-picture'}
   - {title: 友链, url: '/message',class: 'glyphicon glyphicon-heart-empty'}
   - {title: 关于, url: '/about',class: 'glyphicon glyphicon-paperclip'}
-  - {title: 开往, url: 'https://travellings.link',class: 'glyphicon glyphicon-modal-window'}
+#  - {title: 开往, url: 'https://travellings.link',class: 'glyphicon glyphicon-modal-window'}
 #- {title: 留言板, url: '/message',class: 'glyphicon glyphicon-envelope'}
 
 
